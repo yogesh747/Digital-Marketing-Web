@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#img1{
+    height: 50px;
+}
+.common-h5 {
+    color: #3b3663;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 7px;
+}
+
+.common-h2 {
+    color: #3b3663;
+    font-size: 30px;
+    line-height: 38px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+a {
+    font-family: 'Rubik';
+    font-weight: 400;
+}
+.active {
+    background: -webkit-linear-gradient(rgb(46, 12, 241), rgb(248, 2, 248));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Nunito';
+    font-weight: 800;
+}
+
+p {
+    font-family: 'Rubik';
+    font-weight: 400;
+}
+ul li a{
+    transition: all 0.5s ease;
+    margin: 5px;
+}
+ul li a:hover{
+    background: -webkit-linear-gradient(rgb(46, 12, 241), rgb(248, 2, 248));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+button.btn {
+    background: linear-gradient(90deg, #8b81ef, #6759e8);
+    padding: 15px 30px;
+    color: #fff;
+    border: solid black 1px;
+    border-radius: 10px;
+    font-family: "Nunito";
+    font-weight: 800;
+    cursor: pointer;
+    margin: 20px 0px;
+    transition: all 0.5s ease;
+}
+
+button.btn:hover {
+    background: linear-gradient(180deg, #6759e8, #8b81ef);
+    border: solid white 1px;
+}
+.home-bg
+{
+ position: relative;
+}
+.header-col1
+{
+    float: right;
+    position: absolute;
+    width: 50vw;
+    text-align: center;
+    left: -2%;
+    top: 32%;
+    letter-spacing: 1px;
+
+}
+.header-col1 h5
+{
+    font-weight: 10;
+    
+}
+.header-col2
+{
+ background-image: url(../img/Home-page/home-back.png);
+ background-position: center ;
+ background-repeat: no-repeat;
+ background-size: cover;
+ height: 100vh;
+ width: 100%;
+}
+
+
+
+section.header-col3
+{ 
+    position: relative;
+    text-align: center;
+}
+.header-col3 h2 b{
+    background: -webkit-linear-gradient(rgb(46, 12, 241), rgb(248, 2, 248));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 4px;
+    margin-top: 10%;
+
+}
+
+section.header-col3 h5
+{    
+    justify-content: center;
+    text-align: start;
+    letter-spacing: 3px;
+    line-height: 40px;
+    float: left;
+    width: 60%;
+    margin-left: 20px;
+    margin-top: 10%;
+}
+.row1
+{
+margin: px;
+position: absolute;
+text-align: left;
+margin-top: 100px;
+}
+
+.row2
+{
+    background-image: url(../img/Home-page/white\ background.webp);
+    height: 99vh;
+    width: 99vw;
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#img
+{ 
+    position: absolute;
+    left: 65%;
+    top: 25%;
+}
+
+
+
+
+section.cards h2
+{
+margin: 100px;
+text-align: center;
+}
+
