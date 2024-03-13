@@ -1,0 +1,40 @@
+.img1{
+    height: 500px;
+    width: 500px;
+  }
+  .head1{
+      font-family:Georgia, 'Times New Roman', Times, serif;
+      margin: 2%;
+      background: -webkit-linear-gradient(rgb(46, 12, 241), rgb(248, 2, 248));
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+      
+  }
+  .head2{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+      margin: 2%;
+      background: -webkit-linear-gradient(rgb(46, 12, 241), rgb(248, 2, 248));
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+  
+  }
+  .card2{
+    margin-top: 10%;
+   
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color:whitesmoke;
+    border: 2px solid black;
+    width: 350px;
+    height: 200px;
+  }
+  .card2:hover{
+    transform: scale(1.0);
+    box-shadow: 10px 5px 25px rgb(9, 9, 9);
+  }
+.col{
+  width: 300px;
+  height: 630px;
+}
+
+  
+   

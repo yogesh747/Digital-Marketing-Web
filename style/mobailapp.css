@@ -1,0 +1,57 @@
+.img{
+    margin-top: 10%;
+    margin-left: 5%; 
+    
+    
+}
+.img1{
+    margin-left: 5%;
+    margin-top: 3%;
+}
+.card4{
+    margin-top: 10%;
+   
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color:whitesmoke;
+    border: 2px solid black;
+    width: 500px;
+  height: 550px;
+  margin-left:50px;
+  margin-bottom: 40px;
+  
+  }
+  .card4:hover{
+    transform: scale(1.0);
+    box-shadow: 10px 5px 25px rgb(9, 9, 9);
+  }
+  .card1{
+   
+    border: 2px solid black;
+  }
+  .card1:hover{
+    transform: scale(1.0);
+    box-shadow: 10px 5px 10px rgb(9, 9, 9);
+  }
+  .card5{
+
+border: 2px solid black;
+  }
+  .card1:hover{
+    transform: scale(1.0);
+    box-shadow: 10px 5px 10px rgb(9, 9, 9);
+  }
+  .head1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin: 2%;
+    background: -webkit-linear-gradient(rgb(46, 12, 241), rgb(248, 2, 248));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .head2{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin: 2%;
+    background: -webkit-linear-gradient(rgb(46, 12, 241), rgb(248, 2, 248));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
