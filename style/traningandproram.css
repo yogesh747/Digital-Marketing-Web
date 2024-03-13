@@ -1,0 +1,142 @@
+#head { 
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    background: -webkit-linear-gradient(rgb(46, 12, 241), rgb(248, 2, 248));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 30px;
+    line-height: 38px;
+}
+.active {
+    background: -webkit-linear-gradient(rgb(46, 12, 241), rgb(248, 2, 248));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+a {
+    font-family: 'Rubik';
+    font-weight: 400;
+}
+
+#img1{
+    height: 50px;
+}
+p {
+    font-family: 'Rubik';
+    font-weight: 400;
+}
+ul li a{
+    transition: all 0.5s ease;
+    margin: 5px;
+}
+ul li a:hover{
+    background: -webkit-linear-gradient(rgb(46, 12, 241), rgb(248, 2, 248));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.containers
+{
+    box-shadow: 4px 2px 5px black;
+    border: solid black 1px;
+    margin-top: 25%;
+    margin-bottom: 0px;
+}
+
+.footer-col {
+    float: left;
+    width: 30%;
+    margin-right: 3%;
+    margin-top: 45px;
+}
+
+.footer-2-col {
+    position: relative;
+    left: 110px;
+}
+
+.footer-col h3 {
+    background: -webkit-linear-gradient(rgb(46, 12, 241), rgb(248, 2, 248));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Nunito";
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.footer-col p {
+    color: #696687;
+    font-size: 16px;
+    font-family: "Rubik";
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.footer-col i {
+    color: #fff;
+    background-color: #00DBDE;
+    background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    margin-top: 25px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.social-icons-footer i:hover {
+    transform: translateY(-10px)
+}
+
+.footer-col.footer-2-col ul li {
+    color: #696687;
+    font-family: "Rubik";
+    font-size: 16px;
+    padding-bottom: 10px;
+    font-weight: 400;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.footer-col.footer-2-col ul li:hover {
+    padding-left: 5px;
+}
+
+.footer-col.footer-2-col ul {
+    list-style: none;
+}
+
+.footer-col a {
+    color: #696687;
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+.footer-col span {
+    padding-left: 10px;
+}
+.card:hover
+{
+    box-shadow: 3px 4px 6px;
+}
+
+.Traning{
+    display: flex;
+
+}
+
+.imggroup{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 100PX;
+    
+}
+
+.imagesim{
+    justify-content: space-evenly;
+    padding: 30px;
+}
