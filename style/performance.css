@@ -7,8 +7,7 @@
       margin-top: 13%;
       background: -webkit-linear-gradient(rgb(46, 12, 241), rgb(248, 2, 248));
 -webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-      
+-webkit-text-fill-color: transparent;    
   }
   .head2{
     font-family:Georgia, 'Times New Roman', Times, serif;
@@ -88,7 +87,7 @@ ul li a:hover{
 .containers
 {
     margin-top: 12%;
-    margin-bottom: 0px;
+    margin-bottom: 0x;
 }
 
 .footer-col {
