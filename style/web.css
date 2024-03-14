@@ -4,17 +4,17 @@
     height: 500px;
     width: 500px;
   }
-  .head{
+  /* .head{
     font-family:Georgia, 'Times New Roman', Times, serif;
-      margin-top: 7%;
+      margin-top: 10%;
       background: -webkit-linear-gradient(rgb(46, 12, 241), rgb(248, 2, 248));
       -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
+      -webkit-text-fill-color: transparent; */
 
-  }
-  .head1{
+  /* } */
+  .abc{
       font-family:Georgia, 'Times New Roman', Times, serif;
-      margin-top: 2%;
+      margin-top: 7%;
       background: -webkit-linear-gradient(rgb(46, 12, 241), rgb(248, 2, 248));
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
@@ -130,6 +130,7 @@ ul li a:hover{
  margin-left: 5px;
  margin-top: 10%;
  font-family: Georgia, 'Times New Roman', Times, serif;
+ 
 
 }
 .pra1{
@@ -137,6 +138,7 @@ ul li a:hover{
 
  margin-top: 1%;
  font-family: Georgia, 'Times New Roman', Times, serif;
+ padding: 3px;
 
 }
 

@@ -21,6 +21,13 @@
     height: 500px;
     width: 500px;
   }
+  .head{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin: 20px 0px;
+    background: -webkit-linear-gradient(rgb(46, 12, 241), rgb(248, 2, 248));
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+  }
   .head1{
       font-family:Georgia, 'Times New Roman', Times, serif;
       margin: 20px 0px;
@@ -85,11 +92,12 @@ ul li a:hover{
     flex-wrap: wrap;
     justify-content: space-evenly;
   margin: 70px 0;
- 
- 
-
-
+  transition: 1s;
 }
+.parent:hover{
+  transform: scale(1.01);
+}
+
 .main-imgd{
     display: inline-block;
     text-align: center;
@@ -173,7 +181,12 @@ justify-content: center;
  margin: 15px;
  background-color: #f7f7fb;
  border-radius: 10px 0px 10px;
+ transition: 1s;
  
+}
+.small1:hover{
+  box-shadow: 10px 5px 25px gray;
+  transform: scale(0.1);
 }
 .img1{
   height: 100px;

@@ -69,6 +69,7 @@ ul li a:hover{
     background: -webkit-linear-gradient(rgb(46, 12, 241), rgb(248, 2, 248));
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
+margin-top: 7%;
 
     
 }
