@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 
-  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
   <link rel="stylesheet" href="./../style/services.css">
   
@@ -19,45 +19,59 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Nunito:ital@0;1&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
 
- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
+ <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
  rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" 
- crossorigin="anonymous">
+ crossorigin="anonymous"> -->
 
  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    
-    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top ">
-      <div class="container-fluid ">
-        <a class="navbar-brand " href="#"><img src="./../img/img (1).png" id="img1"> <img src="./../img/img (2).png" id="img1"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-end me-5 " id="navbarNavDropdown">
-          <ul class="navbar-nav">
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+     -->
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
+    <script>
+    AOS.init();
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+  <!-- navbar -->
+  <nav class="navbar bg-body-tertiary fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand"><img src="./../img/img (1).png" id="img1"> <img src="./../img/img (2).png" id="img1"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">NAVBAR</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="">Home</a>
+              <a class="nav-link active" aria-current="page" href="./home.html">Home</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Services
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <li><a class="dropdown-item" href="#">Digital Marketing</a></li>
-                <li><a class="dropdown-item" href="#">Performance Marketing</a></li>
-                <li><a class="dropdown-item" href="#">Application Development</a></li>
-                <li><a class="dropdown-item" href="#">Web Development</a></li>
-              </ul>
-            </li>
+                <a class="nav-link dropdown-toggle" href="./services.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Services</a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Digital Marketing</a></li>
+                  <li><a class="dropdown-item" href="#">Performance Marketing</a></li>
+                  <li><a class="dropdown-item" href="#">Application Development</a></li>
+                  <li><a class="dropdown-item" href="#">Web Development</a></li>
+                </ul>
+              </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Mission And Vision</a>
+              <a class="nav-link" href="./vision&mission.html">Mission And Vision</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="./googlemybusiness.html">Google My Business Management</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./traningandprogram.html">Traning And Program</a>
+              <a class="nav-link" href="./traningandprogram.html">Training And Program</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="./contact.html">Contact Us</a>
@@ -65,62 +79,108 @@
           </ul>
         </div>
       </div>
-    </nav>
+    </div>
+  </nav>
+
+   
     <h1 class="head1 text-center"> <b>Digital Marketing</b></h1>
     <div class="card4 bg-dark text-white">
-      <img src="./../img/How-to-Learn-Digital-Marketing.jpg.optimal.jpg" class="card-img " alt="...">
+      <img src="./../img/How-to-Learn-Digital-Marketing.jpg.optimal.jpg" class="card-img" alt="...">
       <div class="card-img-overlay">
         
       </div>
     </div>
+    <h3 class="head6"><b>Our Digital Marketing Expertise </b></h3>
+    <div class="main">
+      <div class="small">
 
-    <h2 class="head2 text-center mt-5">Digital Marketing Services For Your Business</h2>
+        <img src="./../img/digital-campaign-150x150.png" alt=""class="img">
+        <div data-aos="flip-left"></div>
+        
+        <h4 class="head5">Social Meadia Marketing</h4>
+      </div>
+      <div class="small">
+         <img src="./../img/search-engine-150x150.png" alt="" class="img">
+         <h4 class="head5">Search Engine Marketing</h4>
+         
+      </div>
+      <div class="small">
+          <img src="./../img/seo-150x150.png" alt="" class="img">
+          <h4 class="head5">Search Engine Optimize </h4>
+          
+      </div>
+    </div>
+
+    <div class="main">
+      <div class="small">
+        <img src="./../img/optimization-150x150.png" alt="" class="img2">
+        <h4 class="head5">Social Meadia Optimization </h4>
+
+        
+      </div>
+      <div class="small">
+        <img src="./../img/web-150x150.png" alt="" class="img2">
+        <h4 class="head5">Web Development </h4>
+
+      </div>
+      <div class="small">
+        <img src="./../img/ecommerce-1-150x150.png" alt="" class="img2">
+        <h4 class="head5">E-commerce Solution</h4>
+
+      </div>
+    </div>
     
-    <div class="row row-cols-1 row-cols-md-2 g-4">
-      <div class="col">
+
+    <h2 class="head2 text-center my-4">Digital Marketing Services For Your Business</h2>
+    
+    <div class="blog">
+      
         <div class="card5">
-          <img src="./../img/1690955579179.jpg" class="card-img-top" alt="..." height="350px">
+          <img src="./../img/1690955579179.jpg" class="card-img-top" alt="..." height="280px">
           <div class="card-body">
-            <h5 class="card-title text-center ">What Is Local SEO?</h5>
+            <h4 class="card-title text-center fw-bold">What Is Local SEO?</h5>
             <p class="card-text">
               Dominate Your Niche With Strong Digital Branding.Millions of customers are looking for local businesses every day and approximately 84 percent of prospects require digital capabilities to facilitate brand transactions.  </p>
           </div>
-        </div>
+       
       </div>
-      <div class="col">
+     
         <div class="card5">
-          <img src="./../img/What_Are_the_Different_Types_of_SEO.avif" class="card-img-top" alt="..." height="350px">
+          <img src="./../img/What_Are_the_Different_Types_of_SEO.avif" class="card-img-top" alt="..." height="280px">
           <div class="card-body">
-            <h5 class="card-title text-center">Technical SEO? </h5>
+            <h5 class="card-title text-center fw-bold">Technical SEO? </h5>
             <p class="card-text">Technical SEO is the process of ensuring your website is compatible with search engine guidelines so that it can be crawled and indexed without any problems. The main goal of a technical SEO audit is to assess your website’s current SEO. </p>
           </div>
-        </div>
+       
       </div>
-      <div class="col">
-        <div class="card5">
-          <img src="./../img/Google-Analytics-services-by-onlydigitalway.png" class="card-img-top" alt="..." height="350px">
+    </div>
+
+    <div class="blog">  
+            <div class="card5">
+          <img src="./../img/Google-Analytics-services-by-onlydigitalway.png" class="card-img-top" alt="..." height="280px">
           <div class="card-body">
-            <h5 class="card-title text-center">What Is Google Analytics & How Does It Work?</h5>
+            <h5 class="card-title text-center fw-bold">What Is Google Analytics & How Does It Work?</h5>
             <p class="card-text">As a business owner, you work hard to get your customer’s attention. Without Google Analytics for marketing, you’ll never know if all that effort is worthwhile.
 
               Here’s a detailed Google Analytics description to help you understand the importance.
               </p>
-          </div>
-        </div>
+          </div> 
+      
       </div>
-      <div class="col">
+      
         <div class="card5">
-          <img src="./../img/franchise-seo.jpeg" class="card-img-top" alt="..." height="350px">
+          <img src="./../img/franchise-seo.jpeg" class="card-img-top" alt="..." height="280px">
           <div class="card-body">
-            <h5 class="card-title text-center">franchise SEO</h5>
+            <h5 class="card-title text-center fw-bold">franchise SEO</h5>
             <p class="card-text">Create a unique online environment for your specific audience segments and gain top-level visibility across locations and digital platforms. Thrive Internet Marketing Agency offers Franchise SEO services designed to boost your brand recognition and scale your <br><br><br> </p>
           </div>
-        </div>
+      
       </div>
     </div>
+   
 
     <footer>
-      <div class="containers">
+      <div class="containers mt-5">
           <div class="footer-col">
               <h3>About Us</h3>
               <p>We focus on the needs of small to middle market businesses to improve and grow their return.so that your site will withstand the test of time. We care about your business, which is why we work with you.</p>
