@@ -13,155 +13,90 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Nunito:ital@0;1&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
-    rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" 
-    crossorigin="anonymous">
+<!--bootstrap-->
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
    
     <title>Google My Business</title>
 </head>
 <body>
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+     <!--Bootstrap-->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+ 
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top ">
-        <div class="container-fluid ">
-          <a class="navbar-brand " href="#"><img src="./../img/img (1).png" id="img1"> <img src="./../img/img (2).png" id="img1"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+       <!-- navbar -->
+       <nav class="navbar bg-body-tertiary fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand"><img src="./../img/img (1).png" id="img1"> <img src="./../img/img (2).png" id="img1"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse justify-content-end me-5 " id="navbarNavDropdown">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link " aria-current="page" href="./home.html">Home</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="./services.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Services
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <li><a class="dropdown-item" href="./services.html">Digital Marketing</a></li>
-                  <li><a class="dropdown-item" href="./performance.html">Performance Marketing</a></li>
-                  <li><a class="dropdown-item" href="./mobailapp.html">Application Development</a></li>
-                  <li><a class="dropdown-item" href="./web.html">Web Development</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Mission And Vision</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="#">Google My Business Management</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./traningandprogram.html">Traning And Program</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./contact.html">Contact Us</a>
-              </li>
-            </ul>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">NAVBAR</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="./home.html">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="./services.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Services</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <li><a class="dropdown-item" href="#">Digital Marketing</a></li>
+                      <li><a class="dropdown-item" href="#">Performance Marketing</a></li>
+                      <li><a class="dropdown-item" href="#">Application Development</a></li>
+                      <li><a class="dropdown-item" href="#">Web Development</a></li>
+                    </ul>
+                  </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./vision&mission.html">Mission And Vision</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./googlemybusiness.html">Google My Business Management</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./traningandprogram.html">Training And Program</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./contact.html">Contact Us</a>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </nav>
-   
-    <h1 id="h1">Google MY Business</h1>
-    <div class="div1">
-        
-        
-        <h2>Multiple Location Profiles <br>Handelling (Franchises , Banking , etc)</h2>
-<img src="../img/googlemybusness.webp" height="300px" class="img1">
-    </div>
 
-    <div class="main">
+    <h1 id="h1">Google My Business</h1>
 
-        <div class="div11" >
-            <p> <h4>Own a multi-location business? Here’s how to grow traffic and get more customers.</h4>
-                In 2023, 8.5 billion Google searches are made every single day. Google My Business (GMB) helps you tap into that traffic by aggregating all of your brand’s important information in one place. It’s essentially an online directory that allows you to market your business to customers who are actively on the hunt for a product or service like yours. For this reason, it’s important to not only set up a Google My Business profile, but keep it up to date.
-                
-                  </div>
-                <div class="div11">
-                <p><h4>What is a GMB business group?</h4>
-                A business group is a collection of GMB profiles managed by the one organisation. Having a business group makes it easier to manage multiple business locations, ensuring consistency of branding across all a business’ profiles and making user access that much simpler.
-                
-                Here’s how to manage a Google My Business profile for multiple locations.</p>
-            
-            </div>  
-           
-    </div>
 
-    <div class="main">
-<div class="div11" >
-    <p><h4> Create a location group</h4>
-        It’s in Google’s best interests to keep the platform simple, which is why you can (and should) control multiple business locations from a business group account — also known as a location group. This account should be registered with your main company email address. Better yet, use a shared business account like admin@twocooks.com.au, and share the login details with the most senior members of staff. </p>
+<div class="main">
+
+  <div class="col1">
+
+  <h2>Multiple Locations Google Business Profile Management (Ideal For Franchise, Banking etc multiple locations businesses)</h2>
+  <a href="./Multiple Location Profiles Handling.html" target="abc">
+    <button id="btn">Explore More</button></a>
+<br>
+
+
+  </div>
+
+  <div class="col2">
+
+    <h2> Single Location Google Business Profile Management (One-Stop Power Plant):</h2>
+<a href="./One Location Profile Handling.html" target="abc">
+  <button id="btn">Explore More</button></a>
+
+  </div>
+
 </div>
 
-<div class="div11">
-    <p><h4>Choose your owners and managers wisely</h4>
-        Employees come and go, so it’s important you put your GMB profile’s security in the right hands. When it comes to your profile, there are two types of users: owners and managers. As the owner, you can make changes to key information for the location group or business profile, such as address, phone number, business name and URL. Managers are added by you and cannot update or change this information.
-        
-        While managers have restricted access, they still have the ability to reply to reviews and publish posts — so it’s important that those you choose to give access to are trusted members of the business. You should also have a procedure in place should that person ever depart the business. </p>
-</div>
+<iframe src="./Multiple Location Profiles Handling.html" frameborder="0" height="900px" width="100%" name="abc" class="mt-5"></iframe>
 
-    </div>
-
-
-    <div class="div1">
-        
-        
-        <h2> One Location Profile Handelling <br> (For Small Business)</h2>
-<img src="../img/smallbusiness.webp" height="300px" class="img1">
-    </div>
-
-    <div class="main">
-
-        <div class="div11" >
-            <p> <h4>The reason Google My Business changed to Google Business Profile</h4>
-                Google has renamed the Google My Business app to Google Business Profile. But why has Google changed the name of Google My Business?
-                
-                It looks like Google is making an effort to shift from the Google My Business application to make a difference to small businesses with one location. 
-                
-                Is that you? Well, don’t worry, because these changes may actually be a good thing.</p>
-                  </div>
-                <div class="div11">
-                <p><h4>When will Google My Business change to Google Business profile?</h4>
-                    Now - from here on, Google My Business is dead (kind of). You can now call it Google Business Profile.
-                    
-                    So far, it’s just the name, but Google My Business will be entirely retired at some point during next year.
-                    
-                    And while they haven’t told anyone an exact date yet, it wouldn’t be unusual for Google to drop the news unexpectedly - so you need to prepare by updating your online presence.</p>
-            </div>  
-           
-    </div>
-
-    <div class="main">
-<div class="div11" >
-   <p><h4>The TL;DR of what this means for small businesses</h4>
-    For small businesses, the migration of Google My Business to Google Business profile will mean that:
-    
-    Google wants you to move away from managing your listing and descriptions in Google My Business
-    
-    Instead, Google wants you to create and manage online one business listing in Google Search and Google Maps.
-    
-    So, changing Google My Business to Google Business Profile will probably make it easier for small businesses.
-    
-    To learn how to optimise your s</p>
-</div>
-
-<div class="div11">
-   <p><h4>Some new features Google Business Profile will have</h4>
-    Google Business Profile comes with more than a name change and nervous anticipation for business owners.
-    
-    It also comes with:
-    
-    The ability to claim and verify your Google Business Profile easily through Google Search and Maps
-    
-    The ability to manage customer or client phone calls and other communications
-    
-    A platform to communicate with customers directly as they will be able to contact you via your Google Business Profile</p>
-</div>
-
-    </div>
 
     <footer>
         <div class="containers">
